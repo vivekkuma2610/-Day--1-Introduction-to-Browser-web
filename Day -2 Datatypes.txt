@@ -1,0 +1,36 @@
+1. Difference between document and window objects.
+
+	DOCUMENT OBJECT:
+
+	The document object represents a web page that is loaded in the browser. By accessing the document object, we can access the element in the HTML elements that are placed in the form of a hierarchy tree.
+
+	 With the help of document objects, we can add dynamic content to our web page. The document object can be accessed with a window.document or just document.
+
+	It is an essential part of the DOM and provides access to the content and structure of the web page.
+
+	Developers use the document object to manipulate and interact with HTML elements, such as accessing and modifying content, changing styles, and handling events.
+
+	Example properties and methods associated with the document object include getElementById(), querySelector(), createElement(), and more.
+
+	You can access a document object either using window.document property or using document object directly as window is global object. In the below example, title is the property of document object.
+
+	Document screen can be accessed either by window.screen or screen object directly. Screen object doesn't have any methods as in window and document objects.
+	
+
+
+	WINDOW OBJECT:
+
+	The window object is the topmost object of the DOM hierarchy. It represents a browser window or frame that displays the contents of the webpage. 
+
+	Whenever a window appears on the screen to display the contents of the document, the window object is created.It is based on a binary interface standard used in Windows for inter-process communication and component interaction.
+
+	It provides access to browser-specific features and functionalities, such as controlling the browser's behavior, navigating to different URLs, managing history, and handling events related to the entire browser window.
+
+	The window object also serves as the global scope for JavaScript code running in the browser, so variables and functions declared without a specific scope are attached to the window object.
+
+	Example properties and methods associated with the window object include open(), close(), alert(), localStorage, and more.
+
+	The window object represents a window/tab containing a DOM document where as document object is property of window object that points to the DOM document loaded in that window.
+
+	Screen is the window property that holds information of browser screen. It refers to screen object associated with that window object. Used to display screen width, height, colorDepth, pixelDepth etc
+
